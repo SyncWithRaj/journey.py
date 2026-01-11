@@ -5,7 +5,7 @@ import json
 
 # Use chatgpt api key if gemini won't work bcz this is correct code
 client = OpenAI(
-    api_key="AIzaSyB1tbsBCwUanNG9XjRoZyEvQohOERHXpss",
+    api_key=GEMINI_API_KEY,
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
